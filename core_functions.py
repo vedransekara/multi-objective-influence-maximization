@@ -98,7 +98,7 @@ def load_pc(path_):
     pkl_file.close()
     
     # estimate parameters
-    return round(max(Sp,key=operator.itemgetter(1))[0],3)
+    return round(max(Sp,key=operator.itemgetter(1))[0],6)
 
 def coreHD(H,no_seeds):
     '''
